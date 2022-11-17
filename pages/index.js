@@ -29,7 +29,7 @@ export default function Home() {
           <span
             aria-hidden="true"
             className="text-decoration text-vertical font-medium absolute 
-            top-10 pr-1 tracking-widest"
+            top-10 pr-1 tracking-widest opacity-60"
           >
             - 2018-2022 Projects -
           </span>
