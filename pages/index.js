@@ -50,6 +50,53 @@ export default function Home() {
             </p>
           </div>
         </section>
+        <div className="my-9">
+          <svg
+            className="opacity-10 mx-auto"
+            width="47"
+            height="19"
+            viewBox="0 0 47 19"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M23.5001 13.9999L9.49096 0.764745L0.584229 0.822107L19.2766 18.9999H27.7839L46.2958 0.52771L37.7015 0.58306L23.5001 13.9999Z"
+              fill="white"
+            />
+          </svg>
+          <svg
+            className="opacity-30 mx-auto"
+            width="47"
+            height="19"
+            viewBox="0 0 47 19"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M23.5001 13.9999L9.49096 0.764745L0.584229 0.822107L19.2766 18.9999H27.7839L46.2958 0.52771L37.7015 0.58306L23.5001 13.9999Z"
+              fill="white"
+            />
+          </svg>
+          <svg
+            className="mx-auto"
+            width="47"
+            height="19"
+            viewBox="0 0 47 19"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M23.5001 13.9999L9.49096 0.764745L0.584229 0.822107L19.2766 18.9999H27.7839L46.2958 0.52771L37.7015 0.58306L23.5001 13.9999Z"
+              fill="white"
+            />
+          </svg>
+        </div>
       </main>
 
       <footer></footer>
