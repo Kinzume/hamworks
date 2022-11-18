@@ -17,13 +17,13 @@ export default function Home() {
         />
       </Head>
 
-      <main className="bg-black text-white font-orbitron h-full">
+      <main className="text-white font-orbitron h-full">
         <section
           className="w-full bg-[url('/images/bg-hamworks.png')]
           bg-fixed bg-center bg-no-repeat bg-cover 
           relative shadow-hero"
         >
-          <h1 className="w-full text-center text-4xl absolute top-20 left-0 ">
+          <h1 className="hamworks w-full text-center text-4xl absolute top-20 left-0 ">
             Hamworks
           </h1>
           <span
@@ -42,7 +42,7 @@ export default function Home() {
             bg-no-repeat bg-cover pt-4"
           >
             <p className="text-2xl">Welcome!</p>
-            <p>
+            <p className="mx-auto max-w-xs">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
               iure voluptate ab quis labore, maxime optio distinctio. Nesciunt
               explicabo nulla possimus nam veniam ipsum quam repudiandae, magni
@@ -60,8 +60,8 @@ export default function Home() {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
+              fillRule="evenodd"
+              clipRule="evenodd"
               d="M23.5001 13.9999L9.49096 0.764745L0.584229 0.822107L19.2766 18.9999H27.7839L46.2958 0.52771L37.7015 0.58306L23.5001 13.9999Z"
               fill="white"
             />
@@ -75,8 +75,8 @@ export default function Home() {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
+              fillRule="evenodd"
+              clipRule="evenodd"
               d="M23.5001 13.9999L9.49096 0.764745L0.584229 0.822107L19.2766 18.9999H27.7839L46.2958 0.52771L37.7015 0.58306L23.5001 13.9999Z"
               fill="white"
             />
@@ -90,8 +90,8 @@ export default function Home() {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
+              fillRule="evenodd"
+              clipRule="evenodd"
               d="M23.5001 13.9999L9.49096 0.764745L0.584229 0.822107L19.2766 18.9999H27.7839L46.2958 0.52771L37.7015 0.58306L23.5001 13.9999Z"
               fill="white"
             />
