@@ -29,7 +29,6 @@ export default function Home() {
             Hamworks
           </h1>
           <span
-            aria-hidden="true"
             className="text-decoration text-vertical font-medium absolute 
             top-10 pr-1 tracking-widest opacity-60"
           >
@@ -43,7 +42,7 @@ export default function Home() {
             className="text-center bg-[url('/images/bg-welcome.png')] bg-center
             bg-no-repeat bg-cover pt-4"
           >
-            <p className="text-2xl">Welcome!</p>
+            <span className="text-2xl">Welcome!</span>
             <p className="mx-auto max-w-xs">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
               iure voluptate ab quis labore, maxime optio distinctio. Nesciunt
@@ -52,7 +51,10 @@ export default function Home() {
             </p>
           </div>
         </section>
-        <div className="my-9">
+        <div
+          className="my-9"
+          aria-hidden="true"
+        >
           <svg
             className="opacity-10 mx-auto"
             width="47"
