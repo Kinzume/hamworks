@@ -3,6 +3,7 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Project from "../components/Project";
 import projects from "../data/projects";
+import { FaFacebookF, FaTwitter } from "react-icons/fa";
 
 export default function Home() {
   return (
@@ -112,6 +113,41 @@ export default function Home() {
               key={i}
             />
           ))}
+        </section>
+        <section className="flex flex-col items-center space-y-6 mt-20">
+          <Image
+            className="shadow-avatar rounded-full"
+            src="/images/james-currie.png"
+            alt="James Currie"
+            width={163}
+            height={163}
+          />
+          <h2 className="sr-only">About: James Currie and Hamworks</h2>
+          <span className="text-lg">James Currie | Hamworks</span>
+          <p className="text-center mx-auto max-w-xs">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
+            beatae dolore rem officiis maxime vel perspiciatis. Maiores ipsa
+            nobis in voluptatum dolorum cumque debitis odio? Laboriosam, ducimus
+            fugiat doloribus ipsa quo totam impedit. Enim, in?
+          </p>
+          <div className="flex space-x-4">
+            <a
+              href=""
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="sr-only">Facebook Profile</span>
+              <FaFacebookF className="text-[#00b7ff] text-3xl" />
+            </a>
+            <a
+              href=""
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="sr-only">Twitter Profile</span>
+              <FaTwitter className="text-[#00b7ff] text-3xl" />
+            </a>
+          </div>
         </section>
       </main>
 
