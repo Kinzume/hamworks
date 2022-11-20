@@ -17,6 +17,7 @@ module.exports = {
       },
       boxShadow: {
         hero: "inset 0px -17rem 4rem black",
+        project: "0px 0px 12px 0px #27B7ED",
       },
       height: {
         hero: "clamp(13rem, 80vw, 16rem)",

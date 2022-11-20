@@ -1,6 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
+import Project from "../components/Project";
+import projects from "../data/projects";
 
 export default function Home() {
   return (
@@ -97,6 +99,18 @@ export default function Home() {
             />
           </svg>
         </div>
+        <section className="flex flex-col max-w-sm mx-auto gap-8">
+          <h2 className="sr-only">Recent Projects</h2>
+          {projects?.items?.map((item, i) => (
+            <Project
+              image={item.image}
+              skills={item.skills}
+              title={item.title}
+              date={item.date}
+              key={i}
+            />
+          ))}
+        </section>
       </main>
 
       <footer></footer>
