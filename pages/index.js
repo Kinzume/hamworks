@@ -7,7 +7,7 @@ import { FaFacebookF, FaTwitter } from "react-icons/fa";
 
 export default function Home() {
   return (
-    <div className="h-full">
+    <div className="text-white font-orbitron">
       <Head>
         <title>Hamworks</title>
         <meta
@@ -20,7 +20,7 @@ export default function Home() {
         />
       </Head>
 
-      <main className="text-white font-orbitron h-full">
+      <main>
         <section
           className="w-full bg-[url('/images/bg-hamworks.png')]
           bg-fixed bg-center bg-no-repeat bg-cover 
