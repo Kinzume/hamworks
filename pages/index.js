@@ -115,13 +115,15 @@ export default function Home() {
           ))}
         </section>
         <section className="flex flex-col items-center space-y-6 mt-20">
-          <Image
-            className="shadow-avatar rounded-full"
-            src="/images/james-currie.png"
-            alt="James Currie"
-            width={163}
-            height={163}
-          />
+          <div className="overflow-hidden rounded-full shadow-avatar">
+            <Image
+              className="scale-105"
+              src="/images/james-currie.png"
+              alt="James Currie"
+              width={163}
+              height={163}
+            />
+          </div>
           <h2 className="sr-only">About: James Currie and Hamworks</h2>
           <span className="text-lg">James Currie | Hamworks</span>
           <p className="text-center mx-auto max-w-xs">
