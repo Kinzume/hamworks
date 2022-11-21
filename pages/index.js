@@ -150,8 +150,88 @@ export default function Home() {
           </div>
         </section>
       </main>
+      <footer
+        className="w-full bg-gray-600 bg-blend-multiply bg-[url('/images/footer-bg.jpg')]
+        bg-center bg-no-repeat bg-cover"
+      >
+        <div
+          aria-hidden="true"
+          className="h-12"
+        ></div>
+        <div
+          aria-hidden="true"
+          className="mb-8"
+        >
+          <div className="rotate-180 space-y-2">
+            <svg
+              className="mx-auto"
+              width="47"
+              height="19"
+              viewBox="0 0 47 19"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fillRule="evenodd"
+                clipRule="evenodd"
+                d="M23.5001 13.9999L9.49096 0.764745L0.584229 0.822107L19.2766 18.9999H27.7839L46.2958 0.52771L37.7015 0.58306L23.5001 13.9999Z"
+                fill="white"
+              />
+            </svg>
+            <svg
+              className="opacity-30 mx-auto"
+              width="47"
+              height="19"
+              viewBox="0 0 47 19"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fillRule="evenodd"
+                clipRule="evenodd"
+                d="M23.5001 13.9999L9.49096 0.764745L0.584229 0.822107L19.2766 18.9999H27.7839L46.2958 0.52771L37.7015 0.58306L23.5001 13.9999Z"
+                fill="white"
+              />
+            </svg>
+            <svg
+              className="opacity-10 mx-auto"
+              width="47"
+              height="19"
+              viewBox="0 0 47 19"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fillRule="evenodd"
+                clipRule="evenodd"
+                d="M23.5001 13.9999L9.49096 0.764745L0.584229 0.822107L19.2766 18.9999H27.7839L46.2958 0.52771L37.7015 0.58306L23.5001 13.9999Z"
+                fill="white"
+              />
+            </svg>
+          </div>
+          <p className="text-xs text-center pt-2">Return to top of page</p>
+        </div>
+        <address className="text-xs font-medium text-gray-400">
+          <div className="pl-1 pb-1">
+            <div className="flex flex-col">
+              <span>Web Design:</span>
+              <span>Leander Abaya - leo@kinzume.com</span>
+            </div>
+            <div className="flex flex-col">
+              <span>Graphics & Layout:</span>
+              <span>James Currie - james@hamworks.com</span>
+            </div>
+          </div>
+        </address>
+      </footer>
 
-      <footer></footer>
+      <div
+        className="flex justify-center gap-x-2 py-5
+      text-xs text-gray-400 opacity-80 tracking-wide"
+      >
+        <p className="scale-[0.8] translate-y-[0.05rem]">&copy;</p>
+        <p>2022 - Hamworks</p>
+      </div>
     </div>
   );
 }
