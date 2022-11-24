@@ -16,7 +16,7 @@ module.exports = {
         "100%": "100%",
       },
       boxShadow: {
-        hero: "inset 0px -17rem 4rem black",
+        hero: "inset 0px -40rem 4rem black",
         project: "0px 0px 12px 0px #27b7edb5",
         avatar: "0px 0px 10px 1px #27b7ed73",
       },

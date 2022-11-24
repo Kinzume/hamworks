@@ -51,58 +51,63 @@ export default function Home() {
               obcaecati ipsa sapiente.
             </p>
           </div>
+          <div
+            className="my-9"
+            aria-hidden="true"
+          >
+            <svg
+              className="opacity-10 mx-auto"
+              width="47"
+              height="19"
+              viewBox="0 0 47 19"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fillRule="evenodd"
+                clipRule="evenodd"
+                d="M23.5001 13.9999L9.49096 0.764745L0.584229 0.822107L19.2766 18.9999H27.7839L46.2958 0.52771L37.7015 0.58306L23.5001 13.9999Z"
+                fill="white"
+              />
+            </svg>
+            <svg
+              className="opacity-30 mx-auto"
+              width="47"
+              height="19"
+              viewBox="0 0 47 19"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fillRule="evenodd"
+                clipRule="evenodd"
+                d="M23.5001 13.9999L9.49096 0.764745L0.584229 0.822107L19.2766 18.9999H27.7839L46.2958 0.52771L37.7015 0.58306L23.5001 13.9999Z"
+                fill="white"
+              />
+            </svg>
+            <svg
+              className="mx-auto"
+              width="47"
+              height="19"
+              viewBox="0 0 47 19"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fillRule="evenodd"
+                clipRule="evenodd"
+                d="M23.5001 13.9999L9.49096 0.764745L0.584229 0.822107L19.2766 18.9999H27.7839L46.2958 0.52771L37.7015 0.58306L23.5001 13.9999Z"
+                fill="white"
+              />
+            </svg>
+          </div>
+          <div
+            aria-hidden="true"
+            className="h-60 mb-[-15rem]"
+          ></div>
         </section>
-        <div
-          className="my-9"
-          aria-hidden="true"
-        >
-          <svg
-            className="opacity-10 mx-auto"
-            width="47"
-            height="19"
-            viewBox="0 0 47 19"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              fillRule="evenodd"
-              clipRule="evenodd"
-              d="M23.5001 13.9999L9.49096 0.764745L0.584229 0.822107L19.2766 18.9999H27.7839L46.2958 0.52771L37.7015 0.58306L23.5001 13.9999Z"
-              fill="white"
-            />
-          </svg>
-          <svg
-            className="opacity-30 mx-auto"
-            width="47"
-            height="19"
-            viewBox="0 0 47 19"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              fillRule="evenodd"
-              clipRule="evenodd"
-              d="M23.5001 13.9999L9.49096 0.764745L0.584229 0.822107L19.2766 18.9999H27.7839L46.2958 0.52771L37.7015 0.58306L23.5001 13.9999Z"
-              fill="white"
-            />
-          </svg>
-          <svg
-            className="mx-auto"
-            width="47"
-            height="19"
-            viewBox="0 0 47 19"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              fillRule="evenodd"
-              clipRule="evenodd"
-              d="M23.5001 13.9999L9.49096 0.764745L0.584229 0.822107L19.2766 18.9999H27.7839L46.2958 0.52771L37.7015 0.58306L23.5001 13.9999Z"
-              fill="white"
-            />
-          </svg>
-        </div>
-        <section className="flex flex-col max-w-sm mx-auto gap-8">
+
+        <section className="flex flex-col max-w-sm mx-auto gap-8 z-10 relative">
           <h2 className="sr-only">Recent Projects</h2>
           {projects?.items?.map((item, i) => (
             <Project
