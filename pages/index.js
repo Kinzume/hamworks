@@ -227,7 +227,7 @@ export default function Home() {
       </main>
       <footer
         className="w-full bg-gray-600 bg-blend-multiply bg-[url('/images/footer-bg.jpg')]
-        bg-center bg-no-repeat bg-cover"
+        bg-center bg-no-repeat bg-cover mt-16"
       >
         <div
           aria-hidden="true"
