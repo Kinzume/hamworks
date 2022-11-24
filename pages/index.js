@@ -40,8 +40,8 @@ export default function Home() {
             className="h-hero mb-[-2rem]"
           ></div>
           <div
-            className="text-center bg-[url('/images/bg-welcome.png')] bg-center
-            bg-no-repeat bg-cover pt-4"
+            className="text-center pt-4 bg-cover bg-no-repeat xl:bg-contain bg-center
+            bg-fixed bg-[url('/images/bg-welcome.png')]"
           >
             <span className="text-2xl">Welcome!</span>
             <p className="mx-auto max-w-xs">
@@ -50,61 +50,61 @@ export default function Home() {
               explicabo nulla possimus nam veniam ipsum quam repudiandae, magni
               obcaecati ipsa sapiente.
             </p>
+            <div
+              className="my-9"
+              aria-hidden="true"
+            >
+              <svg
+                className="opacity-10 mx-auto"
+                width="47"
+                height="19"
+                viewBox="0 0 47 19"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fillRule="evenodd"
+                  clipRule="evenodd"
+                  d="M23.5001 13.9999L9.49096 0.764745L0.584229 0.822107L19.2766 18.9999H27.7839L46.2958 0.52771L37.7015 0.58306L23.5001 13.9999Z"
+                  fill="white"
+                />
+              </svg>
+              <svg
+                className="opacity-30 mx-auto"
+                width="47"
+                height="19"
+                viewBox="0 0 47 19"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fillRule="evenodd"
+                  clipRule="evenodd"
+                  d="M23.5001 13.9999L9.49096 0.764745L0.584229 0.822107L19.2766 18.9999H27.7839L46.2958 0.52771L37.7015 0.58306L23.5001 13.9999Z"
+                  fill="white"
+                />
+              </svg>
+              <svg
+                className="mx-auto"
+                width="47"
+                height="19"
+                viewBox="0 0 47 19"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fillRule="evenodd"
+                  clipRule="evenodd"
+                  d="M23.5001 13.9999L9.49096 0.764745L0.584229 0.822107L19.2766 18.9999H27.7839L46.2958 0.52771L37.7015 0.58306L23.5001 13.9999Z"
+                  fill="white"
+                />
+              </svg>
+            </div>
+            <div
+              aria-hidden="true"
+              className="h-60 mb-[-15rem]"
+            ></div>
           </div>
-          <div
-            className="my-9"
-            aria-hidden="true"
-          >
-            <svg
-              className="opacity-10 mx-auto"
-              width="47"
-              height="19"
-              viewBox="0 0 47 19"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fillRule="evenodd"
-                clipRule="evenodd"
-                d="M23.5001 13.9999L9.49096 0.764745L0.584229 0.822107L19.2766 18.9999H27.7839L46.2958 0.52771L37.7015 0.58306L23.5001 13.9999Z"
-                fill="white"
-              />
-            </svg>
-            <svg
-              className="opacity-30 mx-auto"
-              width="47"
-              height="19"
-              viewBox="0 0 47 19"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fillRule="evenodd"
-                clipRule="evenodd"
-                d="M23.5001 13.9999L9.49096 0.764745L0.584229 0.822107L19.2766 18.9999H27.7839L46.2958 0.52771L37.7015 0.58306L23.5001 13.9999Z"
-                fill="white"
-              />
-            </svg>
-            <svg
-              className="mx-auto"
-              width="47"
-              height="19"
-              viewBox="0 0 47 19"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fillRule="evenodd"
-                clipRule="evenodd"
-                d="M23.5001 13.9999L9.49096 0.764745L0.584229 0.822107L19.2766 18.9999H27.7839L46.2958 0.52771L37.7015 0.58306L23.5001 13.9999Z"
-                fill="white"
-              />
-            </svg>
-          </div>
-          <div
-            aria-hidden="true"
-            className="h-60 mb-[-15rem]"
-          ></div>
         </section>
 
         <section className="flex flex-col max-w-sm mx-auto gap-8 z-10 relative">
