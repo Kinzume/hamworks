@@ -151,6 +151,79 @@ export default function Home() {
             </a>
           </div>
         </section>
+        <section className="bg-[#D6D6D6] text-black py-4 px-2 mt-16">
+          <h2 className="text-2xl font-medium tracking-wider pb-4 text-center">
+            Contact Form
+          </h2>
+          <form
+            action=""
+            method=""
+          >
+            <ul className="space-y-4">
+              <li>
+                <label
+                  htmlFor="name"
+                  className="text-xs font-black tracking-widest sr-only sm:not-sr-only"
+                >
+                  NAME:
+                </label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Your Name"
+                  className="block w-full rounded-xl border-[#AAAAAA] border-1 
+                  px-2 py-1 placeholder:font-normal font-bold
+                  focus:outline-none focus:border-[#00b7ff] focus:ring-[#00b7ff] 
+                  focus:ring-1 max-w-xs mx-auto"
+                />
+              </li>
+              <li>
+                <label
+                  htmlFor="mail"
+                  className="text-xs font-black tracking-widest sr-only sm:not-sr-only"
+                >
+                  EMAIL:
+                </label>
+                <input
+                  type="email"
+                  id="mail"
+                  name="email"
+                  placeholder="Email Address"
+                  className="block w-full rounded-xl border-[#AAAAAA] border-1 
+                  px-2 py-1 placeholder:font-normal font-bold
+                  focus:outline-none focus:border-[#00b7ff] focus:ring-[#00b7ff] 
+                  focus:ring-1 max-w-xs mx-auto"
+                />
+              </li>
+              <li>
+                <label
+                  htmlFor="msg"
+                  className="text-xs font-black tracking-widest sr-only sm:not-sr-only"
+                >
+                  MESSAGE:
+                </label>
+                <textarea
+                  name="message"
+                  id="msg"
+                  placeholder="How can I help?"
+                  className="block w-full rounded-md border-[#AAAAAA] border-2 px-2 py-1 
+                  placeholder:font-normal font-bold
+                  focus:outline-none focus:border-[#00b7ff] focus:ring-[#00b7ff] 
+                  focus:ring-1 max-w-xs h-40 mx-auto"
+                ></textarea>
+              </li>
+              <li className="mx-auto w-fit">
+                <button
+                  type="submit"
+                  className="btn-bg py-2 px-4 text-white tracking-widest"
+                >
+                  CONTACT
+                </button>
+              </li>
+            </ul>
+          </form>
+        </section>
       </main>
       <footer
         className="w-full bg-gray-600 bg-blend-multiply bg-[url('/images/footer-bg.jpg')]
