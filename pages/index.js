@@ -7,7 +7,7 @@ import { FaFacebookF, FaTwitter } from "react-icons/fa";
 
 export default function Home() {
   return (
-    <div className="text-white font-orbitron">
+    <>
       <Head>
         <title>Hamworks</title>
         <meta
@@ -312,6 +312,6 @@ export default function Home() {
         <p className="scale-[0.8] translate-y-[0.05rem]">&copy;</p>
         <p>2022 - Hamworks</p>
       </div>
-    </div>
+    </>
   );
 }

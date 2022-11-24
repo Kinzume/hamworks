@@ -13,7 +13,7 @@ const orbitron = localFont({
 
 function MyApp({ Component, pageProps }) {
   return (
-    <div className={`${orbitron.variable} font-sans body-bg`}>
+    <div className={`${orbitron.variable} body-bg text-white font-orbitron`}>
       <Component {...pageProps} />
     </div>
   );
