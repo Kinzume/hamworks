@@ -231,7 +231,7 @@ export default function Home() {
         </section>
       </main>
       <footer
-        className="w-full bg-gray-600 bg-blend-multiply bg-[url('/images/footer-bg.jpg')]
+        className="w-full bg-gray-600 bg-blend-multiply bg-fixed bg-[url('/images/footer-bg.jpg')]
         bg-center bg-no-repeat bg-cover mt-16"
       >
         <div
