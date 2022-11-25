@@ -1,3 +1,4 @@
+const defaultTheme = require("tailwindcss/defaultTheme");
 const { fontFamily } = require("tailwindcss/defaultTheme");
 
 /** @type {import('tailwindcss').Config} */
@@ -12,19 +13,27 @@ module.exports = {
       fontFamily: {
         orbitron: ["var(--orbitron)", ...fontFamily.sans],
       },
-      backgroundSize: {
-        "100%": "100%",
-      },
       boxShadow: {
-        hero: "inset 0px -40rem 4rem black",
+        welcome: "0px 0px 10rem 10rem black",
         project: "0px 0px 12px 0px #27b7edb5",
         avatar: "0px 0px 10px 1px #27b7ed73",
       },
-      height: {
-        hero: "clamp(13rem, 80vw, 16rem)",
-      },
       fontSize: {
         decoration: "0.55rem",
+      },
+      animation: {
+        "pulse-1":
+          "pulse-arrow 1.5s cubic-bezier(0.4, 0, 0.6, 1) 0.3s infinite",
+        "pulse-2":
+          "pulse-arrow 1.5s cubic-bezier(0.4, 0, 0.6, 1) 0.6s infinite",
+        "pulse-3":
+          "pulse-arrow 1.5s cubic-bezier(0.4, 0, 0.6, 1) 0.9s infinite",
+      },
+      keyframes: {
+        "pulse-arrow": {
+          "0%, 100%": { opacity: "0.2" },
+          "50%": { opacity: "1" },
+        },
       },
     },
   },

@@ -22,91 +22,93 @@ export default function Home() {
 
       <main>
         <section
-          className="w-full bg-[url('/images/bg-hamworks.png')]
-          bg-fixed bg-center bg-no-repeat bg-cover 
-          relative shadow-hero"
+          className="bg-cover bg-[url('/images/bg-hamworks.png')]
+          bg-fixed bg-no-repeat h-screen
+          grid grid-cols-[auto_1fr_auto_1fr] items-center"
         >
-          <h1 className="hamworks w-full text-center text-4xl absolute top-20 left-0 ">
-            Hamworks
-          </h1>
-          <span
-            className="text-decoration text-vertical font-medium absolute 
-            top-10 pr-1 tracking-widest opacity-60"
+          <p
+            className="text-decoration text-vertical font-medium
+            pr-1 tracking-widest opacity-60 col-start-1"
           >
             - 2018-2022 Projects -
-          </span>
-          <div
-            aria-hidden="true"
-            className="h-hero mb-[-2rem]"
-          ></div>
-          <div
-            className="text-center pt-4 bg-cover bg-no-repeat xl:bg-contain bg-center
-            bg-fixed bg-[url('/images/bg-welcome.png')]"
+          </p>
+
+          <h1
+            className="hamworks w-fit text-4xl col-start-3
+            sm:text-6xl md:text-7xl lg:text-9xl"
           >
-            <span className="text-2xl">Welcome!</span>
-            <p className="mx-auto max-w-xs">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
-              iure voluptate ab quis labore, maxime optio distinctio. Nesciunt
-              explicabo nulla possimus nam veniam ipsum quam repudiandae, magni
-              obcaecati ipsa sapiente.
-            </p>
-            <div
-              className="my-9"
-              aria-hidden="true"
+            Hamworks
+          </h1>
+        </section>
+        <section
+          className="relative z-10 text-center bg-no-repeat
+           bg-cover bg-black bg-[url('/images/bg-welcome.png')]
+           py-40 shadow-welcome"
+        >
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
+            Welcome!
+          </h2>
+          <p
+            className="mx-auto pt-4 max-w-xs 
+            sm:max-w-md md:max-w-lg lg:max-w-xl
+            sm:text-xl"
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+            iure voluptate ab quis labore, maxime optio distinctio. Nesciunt
+            explicabo nulla possimus nam veniam ipsum quam repudiandae, magni
+            obcaecati ipsa sapiente.
+          </p>
+          <div
+            className="my-9"
+            aria-hidden="true"
+          >
+            <svg
+              className="opacity-0 mx-auto animate-pulse-1"
+              width="47"
+              height="19"
+              viewBox="0 0 47 19"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              <svg
-                className="opacity-10 mx-auto"
-                width="47"
-                height="19"
-                viewBox="0 0 47 19"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fillRule="evenodd"
-                  clipRule="evenodd"
-                  d="M23.5001 13.9999L9.49096 0.764745L0.584229 0.822107L19.2766 18.9999H27.7839L46.2958 0.52771L37.7015 0.58306L23.5001 13.9999Z"
-                  fill="white"
-                />
-              </svg>
-              <svg
-                className="opacity-30 mx-auto"
-                width="47"
-                height="19"
-                viewBox="0 0 47 19"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fillRule="evenodd"
-                  clipRule="evenodd"
-                  d="M23.5001 13.9999L9.49096 0.764745L0.584229 0.822107L19.2766 18.9999H27.7839L46.2958 0.52771L37.7015 0.58306L23.5001 13.9999Z"
-                  fill="white"
-                />
-              </svg>
-              <svg
-                className="mx-auto"
-                width="47"
-                height="19"
-                viewBox="0 0 47 19"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fillRule="evenodd"
-                  clipRule="evenodd"
-                  d="M23.5001 13.9999L9.49096 0.764745L0.584229 0.822107L19.2766 18.9999H27.7839L46.2958 0.52771L37.7015 0.58306L23.5001 13.9999Z"
-                  fill="white"
-                />
-              </svg>
-            </div>
-            <div
-              aria-hidden="true"
-              className="h-60 mb-[-15rem]"
-            ></div>
+              <path
+                fillRule="evenodd"
+                clipRule="evenodd"
+                d="M23.5001 13.9999L9.49096 0.764745L0.584229 0.822107L19.2766 18.9999H27.7839L46.2958 0.52771L37.7015 0.58306L23.5001 13.9999Z"
+                fill="white"
+              />
+            </svg>
+            <svg
+              className="opacity-0 mx-auto animate-pulse-2"
+              width="47"
+              height="19"
+              viewBox="0 0 47 19"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fillRule="evenodd"
+                clipRule="evenodd"
+                d="M23.5001 13.9999L9.49096 0.764745L0.584229 0.822107L19.2766 18.9999H27.7839L46.2958 0.52771L37.7015 0.58306L23.5001 13.9999Z"
+                fill="white"
+              />
+            </svg>
+            <svg
+              className="opacity-0 mx-auto animate-pulse-3"
+              width="47"
+              height="19"
+              viewBox="0 0 47 19"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fillRule="evenodd"
+                clipRule="evenodd"
+                d="M23.5001 13.9999L9.49096 0.764745L0.584229 0.822107L19.2766 18.9999H27.7839L46.2958 0.52771L37.7015 0.58306L23.5001 13.9999Z"
+                fill="white"
+              />
+            </svg>
           </div>
         </section>
-
         <section className="flex flex-col max-w-sm mx-auto gap-8 z-10 relative">
           <h2 className="sr-only">Recent Projects</h2>
           {projects?.items?.map((item, i) => (
