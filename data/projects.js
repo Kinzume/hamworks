@@ -19,7 +19,7 @@ const projects = {
       date: "November 2022",
     },
     {
-      image: "/images/designworks.jpg",
+      image: "/images/designworks.png",
       skills: ["3D Modelling", "Graphic Design"],
       title: "S.F. - Outer Infinity",
       date: "November 2022",
