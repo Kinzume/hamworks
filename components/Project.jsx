@@ -4,29 +4,29 @@ import Tag from "./Tag";
 
 export default function Project({ date, image, skills, title }) {
   return (
-    <article className="group bg-white rounded-lg shadow-project">
+    <article className="grid grid-rows-[auto_1fr] max-w-[500px] group bg-white rounded-lg shadow-project">
       <Image
-        className=" rounded-lg shadow-img"
+        className="rounded-lg shadow-img"
         src={image}
         alt={title}
         width={1920}
         height={1080}
       />
-      <div className="text-black py-4 px-3 rounded-b-lg">
-        <div className="flex flex-col-reverse mb-6">
-          <h3 className="pt-3 text-gray-700 text-lg font-medium tracking-wider">
-            {title}
-          </h3>
-          <div className="flex gap-x-2 flex-wrap">
-            {skills?.map((item, i) => (
-              <Tag
-                item={item}
-                key={i}
-              />
-            ))}
-          </div>
+      <div className="flex flex-col rounded-b-lg m-2 md:m-3 lg:mx-6">
+        <div className="flex gap-x-2 flex-wrap">
+          {skills?.map((item, i) => (
+            <Tag
+              item={item}
+              key={i}
+            />
+          ))}
         </div>
-        <span className="text-gray-500 text-xs">{date}</span>
+        <h3 className="pt-3 pb-6 text-gray-700 font-medium tracking-wider">
+          {title}
+        </h3>
+        <span className="mt-auto text-gray-500 text-xs md:text-sm lg:text-base end">
+          {date}
+        </span>
       </div>
     </article>
   );

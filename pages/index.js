@@ -101,7 +101,7 @@ export default function Home() {
             </svg>
           </div>
         </section>
-        <section className="flex flex-col max-w-sm mx-auto gap-8 z-10 relative">
+        <section className="flex flex-wrap justify-center container mx-auto gap-8 z-10 relative">
           <h2 className="sr-only">Recent Projects</h2>
           {projects?.items?.map((item, i) => (
             <Project
