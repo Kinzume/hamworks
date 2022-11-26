@@ -21,7 +21,7 @@ const projects = {
     {
       image: "/images/designworks.png",
       skills: ["3D Modelling", "Graphic Design"],
-      title: "S.F. - Outer Infinity",
+      title: "Design Works 2018-2020",
       date: "November 2022",
     },
   ],
