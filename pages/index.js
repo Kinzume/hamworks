@@ -33,25 +33,17 @@ export default function Home() {
             - 2018-2022 Projects -
           </p>
 
-          <h1
-            className="hamworks w-fit text-4xl col-start-3
-            sm:text-6xl md:text-7xl lg:text-9xl"
-          >
-            Hamworks
-          </h1>
+          <h1 className="hamworks w-fit col-start-3">Hamworks</h1>
         </section>
         <section
           className="relative z-10 text-center bg-no-repeat
            bg-cover bg-black bg-[url('/images/bg-welcome.png')]
            py-40 shadow-welcome"
         >
-          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
-            Welcome!
-          </h2>
+          <h2 className="">Welcome!</h2>
           <p
             className="mx-auto pt-4 max-w-xs 
-            sm:max-w-md md:max-w-lg lg:max-w-xl
-            sm:text-xl"
+            sm:max-w-md md:max-w-lg lg:max-w-xl"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
             iure voluptate ab quis labore, maxime optio distinctio. Nesciunt
@@ -159,7 +151,7 @@ export default function Home() {
           </div>
         </section>
         <section className="bg-[#D6D6D6] text-black py-4 px-2 mt-16">
-          <h2 className="text-2xl font-medium tracking-wider pb-4 text-center">
+          <h2 className="font-medium tracking-wider pb-4 text-center">
             Contact Form
           </h2>
           <form
@@ -170,7 +162,7 @@ export default function Home() {
               <li>
                 <label
                   htmlFor="name"
-                  className="text-xs font-black tracking-widest sr-only sm:not-sr-only"
+                  className="font-black tracking-widest sr-only sm:not-sr-only"
                 >
                   NAME:
                 </label>
@@ -188,7 +180,7 @@ export default function Home() {
               <li>
                 <label
                   htmlFor="mail"
-                  className="text-xs font-black tracking-widest sr-only sm:not-sr-only"
+                  className="font-black tracking-widest sr-only sm:not-sr-only"
                 >
                   EMAIL:
                 </label>
@@ -206,7 +198,7 @@ export default function Home() {
               <li>
                 <label
                   htmlFor="msg"
-                  className="text-xs font-black tracking-widest sr-only sm:not-sr-only"
+                  className="font-black tracking-widest sr-only sm:not-sr-only"
                 >
                   MESSAGE:
                 </label>

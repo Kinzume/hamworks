@@ -2,6 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  h1 {
+    @apply text-4xl sm:text-6xl md:text-7xl lg:text-9xl;
+  }
+
+  h2 {
+    @apply text-3xl sm:text-5xl md:text-6xl lg:text-8xl;
+  }
+
+  h3 {
+    @apply text-lg sm:text-xl md:text-2xl lg:text-3xl;
+  }
+  label {
+    @apply text-xs;
+  }
+}
 html,
 body {
   padding: 0;
