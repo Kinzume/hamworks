@@ -37,7 +37,7 @@ export default function Home() {
         </section>
         <section
           className="relative z-10 text-center bg-no-repeat
-           bg-cover bg-black bg-[url('/images/bg-welcome.png')]
+           bg-cover xl:bg-contain bg-center bg-black bg-[url('/images/bg-welcome.png')]
            py-40 shadow-welcome"
         >
           <div className="container mx-auto">
