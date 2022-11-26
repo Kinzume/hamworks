@@ -24,7 +24,7 @@ export default function Project({ date, image, skills, title }) {
         <h3 className="pt-3 pb-6 text-gray-700 font-medium tracking-wider">
           {title}
         </h3>
-        <span className="mt-auto text-gray-500 text-xs md:text-sm lg:text-base end">
+        <span className="mt-auto text-gray-500 text-xs md:text-sm lg:text-base">
           {date}
         </span>
       </div>
