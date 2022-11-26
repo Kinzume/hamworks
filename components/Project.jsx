@@ -5,7 +5,7 @@ import Tag from "./Tag";
 export default function Project({ date, image, skills, title }) {
   return (
     <article
-      className="grid grid-rows-[auto_1fr] md:max-w-[360px] lg:max-w-[400px] xl:max-w-[500px] 2xl:max-w-2xl
+      className="grid grid-rows-[auto_1fr] md:max-w-[23rem] lg:max-w-[31rem] xl:max-w-[38rem] 2xl:max-w-[46rem]
     group bg-white rounded-lg shadow-project"
     >
       <Image
