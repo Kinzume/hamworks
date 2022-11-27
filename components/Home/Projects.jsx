@@ -8,7 +8,8 @@ export default function Projects() {
       <h2 className="sr-only">Recent Projects</h2>
       {projects?.items?.map((item, i) => (
         <Project
-          image={item.image}
+          href={item.href}
+          src={item.src}
           skills={item.skills}
           title={item.title}
           date={item.date}
