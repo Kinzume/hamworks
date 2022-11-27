@@ -17,6 +17,7 @@ module.exports = {
         welcome: "0px 0px 10rem 10rem black",
         project: "0px 0px 12px 0px #27b7edb5",
         avatar: "0px 0px 10px 1px #27b7ed73",
+        contact: "0px 0px 17px 0px #27b7edb5",
       },
       fontSize: {
         decoration: "0.55rem",
