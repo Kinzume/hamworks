@@ -495,10 +495,10 @@ export default function Home() {
 
       <div
         className="flex justify-center gap-x-2 py-5
-      text-xs text-gray-400 opacity-80 tracking-wide"
+        text-gray-400 opacity-80 tracking-wide"
       >
-        <p className="scale-[0.8] translate-y-[0.05rem]">&copy;</p>
-        <p>2022 - Hamworks</p>
+        <p className="md:text-lg scale-[0.8] translate-y-[0.05rem]">&copy;</p>
+        <p className="md:text-lg">2022 - Hamworks</p>
       </div>
     </>
   );
