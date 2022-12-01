@@ -15,7 +15,7 @@ export default function Project({ href, src, skills, title, date }) {
         group bg-white rounded-lg shadow-project"
       >
         <Image
-          className="rounded-lg shadow-img"
+          className="rounded-lg clip-path-project-img shadow-project-image"
           src={src}
           alt={title}
           width={1920}

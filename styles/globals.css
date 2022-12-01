@@ -32,24 +32,19 @@ body {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
-#__next {
-  height: 100%;
-}
-
 .hamworks {
   text-shadow: 0px 0px 10px #27b7ed, 0px 0px 4px #ffffff;
-}
-
-.shadow-img {
-  /* https://stackoverflow.com/questions/5115427/how-can-i-add-a-box-shadow-on-one-side-of-an-element */
-  box-shadow: 0px 5px 10px 0px black;
-  clip-path: inset(0px -1px -15px 0px);
 }
 
 .text-vertical {
   writing-mode: vertical-rl;
   /*text-orientation: sideways;*/
   transform: scale(-1);
+}
+
+.clip-path-project-img {
+  /* https://stackoverflow.com/questions/5115427/how-can-i-add-a-box-shadow-on-one-side-of-an-element */
+  clip-path: inset(0px -1px -15px 0px);
 }
 
 .body-bg {
