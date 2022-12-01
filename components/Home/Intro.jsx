@@ -13,7 +13,6 @@ export default function Intro() {
       >
         - 2018-2022 Projects -
       </p>
-
       <h1 className="hamworks w-fit col-start-3">Hamworks</h1>
     </section>
   );
